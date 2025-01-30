@@ -1,0 +1,92 @@
+.signature-container{
+    padding: 50px 80px;
+    width: 1300px;
+    font-family: Arial, sans-serif;
+}
+
+/* FORM preview - 1ST COLUMN*/
+
+.first-column table{
+    width: 380px;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding:15px 25px 35px 25px;
+    border-radius: 15px;
+}
+
+.first-column tr{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+.first-column tr input{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* image preview - 2ND COLUMN*/
+#signaturePreview,
+#htmlcode{
+    width: 750px;
+    
+}  
+.sig-cont{
+    background-color: #000;
+    color: #fff !important;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.sig-aog-details-cont .aog-logo img{
+    width: 200px;
+}
+.sig-aog-details-cont .name-position-cont{
+    font-size: 20px;
+}
+.sig-aog-details-cont .name-position-cont em{
+    font-size: 16px;
+}
+.sig-aog-details-cont .links-cont a{
+    font-size: 13px;
+    color: #fff !important;
+    text-decoration: none;
+}
+.sig-aog-details-cont .links-cont img{
+    width: 15px;
+    margin-right: 10px;
+}
+.sig-cont .other-logo{
+    text-align: center;
+}
+.sig-cont .other-logo img:nth-child(1){
+    width: 210px;
+}
+.sig-cont .other-logo img{
+    width: 150px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.sig-cont tr:nth-child(2) td{
+    font-size: 9px;
+}
+
+/* HTMLCODE */
+
+textarea#codePreview {
+    margin-top: 25px;
+    background-color: #1F2937;
+    color: #fff;
+    border: none !important;
+    border-radius: 15px;
+}
