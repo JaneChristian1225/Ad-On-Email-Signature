@@ -68,6 +68,12 @@ button {
 .sig-cont .other-logo{
     text-align: center;
 }
+td.other-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .sig-cont .other-logo img:nth-child(1){
     width: 210px;
 }
