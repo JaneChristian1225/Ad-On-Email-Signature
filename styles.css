@@ -67,8 +67,6 @@ button {
 }
 .sig-cont .other-logo{
     text-align: center;
-}
-td.other-logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
